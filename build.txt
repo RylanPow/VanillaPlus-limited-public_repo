@@ -1,0 +1,5 @@
+displayName = VanillaPlus
+
+author = Me
+version = 1.000
+homepage = https://vanillaplus-terraria-mod.fandom.com/wiki/VanillaPlus_Terraria_Mod_Wiki

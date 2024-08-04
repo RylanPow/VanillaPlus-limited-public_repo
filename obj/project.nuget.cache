@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kvkZPLzYKscKUeD0uIJTKc4rb8cNgQcaEjgk/Tgy/T7CJvVF32czCS6yeMywU6BpcCDvgMLJjUicsaTX0tpnqQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\powry\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\BonusVanillaStuff\\BonusVanillaStuff.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\powry\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
