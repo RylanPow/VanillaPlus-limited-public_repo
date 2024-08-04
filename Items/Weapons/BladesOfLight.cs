@@ -29,7 +29,9 @@ namespace BonusVanillaStuff.Items.Weapons //the path to whatever folder the item
 			Item.value = Item.buyPrice(gold: 5); //item price.  see: buy vs sell price in Terraria
 			Item.rare = ItemRarityID.Red; //the color rarity of the item, IDs jsut correspond to integers 
 			Item.UseSound = SoundID.Item28; //the sound played on use.  main use for Terraria.ID import
-			Item.shoot = ModContent.ProjectileType<BladesOfLightProjectile>(); //what projectile the weapon fires.  usually modifed in Shoot()
+
+			Item.shoot = ModContent.ProjectileType<BladesOfLightProjectile>(); 
+			//what projectile the weapon fires.  usually modifed in Shoot().  see projectiles for corresponding projectile file
 		}
 	
 		//If shoot has been set in SetDefaults(), the specifics of what is fired is handled here
@@ -51,17 +53,13 @@ namespace BonusVanillaStuff.Items.Weapons //the path to whatever folder the item
 				Main.projectile[proj1].tileCollide = false;
 			    Main.projectile[proj1].localNPCHitCooldown = 1;
 			}
-			//if Item.shoot is set to anything in SetDefaults(), return false here will prevent that projectile from being shot.  For example,
-			//if Item.shoot = 10, meaning Item.shoot was set to purification powder, return false prevents purification powder from rendering,
-			//instead replacing it with what is in this method
+			//if Item.shoot is set to anything in SetDefaults(), return false here will prevent that projectile from being shot.  For example, if Item.shoot = 10, meaning Item.shoot was set to purification powder, return false prevents purification powder from rendering, instead replacing it with what is in this method
 			return false;
 		}
 
         public override void AddRecipes()
         {
-			//recipes are created in this method
-			//create a new recipe, add ingredients, add a tile(crafting station), then register recipe
-			//can create a second recipe, e.g. Recipe recipe2 = CreateRecipe(); to have multiple recipes for one item
+			//recipes are created in this method. create a new recipe, add ingredients, add a tile(crafting station), then register recipe. can create a second recipe, e.g. Recipe recipe2 = CreateRecipe(); to have multiple recipes for one item
             Recipe recipe = CreateRecipe();
 			recipe.AddIngredient(ItemID.EmpressBlade);
 			recipe.AddIngredient(ItemID.BeamSword);
