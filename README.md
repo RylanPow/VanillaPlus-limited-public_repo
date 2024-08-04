@@ -11,6 +11,7 @@ Most of the actual work for the mod can be found in the Items and Projectile dir
 out the official ExampleMod public repository to get started with modding.  
 
 BladesOfLight.cs has been annotated with some basic explanations of how Terraria mods work:
+https://github.com/RylanPow/VanillaPlus-limited-public_repo/blob/main/Items/Weapons/BladesOfLight.cs
 
 Download VanillaPlus here: https://steamcommunity.com/sharedfiles/filedetails/?id=2856074188
 
