@@ -14,7 +14,9 @@ For new modders, be sure to check out the official ExampleMod public repository 
 ### BladesOfLight.cs has been annotated with some basic explanations of how Terraria modding works:
 https://github.com/RylanPow/VanillaPlus-limited-public_repo/blob/main/Items/Weapons/BladesOfLight.cs
 
-### Download VanillaPlus here: https://steamcommunity.com/sharedfiles/filedetails/?id=2856074188
+### Download VanillaPlus here: 
+https://steamcommunity.com/sharedfiles/filedetails/?id=2856074188
 
-### Wiki page: https://vanillaplus-terraria-mod.fandom.com/wiki/VanillaPlus_Terraria_Mod_Wiki
+### Wiki page: 
+https://vanillaplus-terraria-mod.fandom.com/wiki/VanillaPlus_Terraria_Mod_Wiki
 
